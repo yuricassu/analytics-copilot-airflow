@@ -1,0 +1,3 @@
+[submodule "include/dbt"]
+	path = include/dbt
+	url = https://github.com/yuricassu/analytics-copilot.git
