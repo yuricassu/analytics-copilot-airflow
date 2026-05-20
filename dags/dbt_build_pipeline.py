@@ -31,7 +31,8 @@ with DAG(
                 conn_id="databricks_default",
                 profile_args={
                     "catalog": "analytics_copilot",
-                }
+                     "schema": "default"
+                },
             ),
         ),
 
