@@ -30,7 +30,6 @@ with DAG(
             profile_mapping=DatabricksTokenProfileMapping(
                 conn_id="databricks_default",
                 profile_args={
-                    "schema": "default",
                     "catalog": "analytics_copilot",
                 }
             ),
